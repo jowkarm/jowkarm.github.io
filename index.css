@@ -6,11 +6,12 @@ body {
   text-align: center;
 }
 ul {
-  text-align: left;
+  text-align: center;
 }
 #header li {
   display: inline;
   padding: 20px;
+  
 }
 #image {
   max-width: 100%;
