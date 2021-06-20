@@ -1,0 +1,37 @@
+body {
+  background-color: darkgray;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 7vw;
+  text-align: center;
+}
+ul {
+  text-align: left;
+}
+#header li {
+  display: inline;
+  padding: 20px;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+#img-div {
+  padding: 5px 5px 20px 5px;
+  background-color: white;
+}
+#img-caption {
+  max-width: 1000px;
+  text-align: center;
+  display: inline-block;
+}
+p {
+  text-align: left;
+}
+
+@media only screen and (max-width: 800px) {
+  #image #img-div {
+    width: 85vw;
+  }
+}
