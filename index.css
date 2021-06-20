@@ -8,6 +8,9 @@ body {
 ul {
   text-align: left;
 }
+#header {
+  text-align: center;
+}
 #header li {
   display: inline;
   padding: 20px;
