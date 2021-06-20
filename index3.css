@@ -1,12 +1,9 @@
-
-
 body {
   background-color: hsl(210, 2%, 41%);
   display: flex;
   flex-direction: column;
-  font-family:Arial, Helvetica, sans-serif;
-  background-image: url('trompet.jpg');
-   
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("trompet.jpg");
 }
 
 header {
@@ -134,7 +131,7 @@ footer {
   margin-top: 50px;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   padding: 10px;
   padding-bottom: 0px;
 }
@@ -151,13 +148,12 @@ footer p {
 }
 
 .btn {
-  text-transform:capitalize;
+  text-transform: capitalize;
   background-color: hsl(40, 37%, 97%);
   font-weight: bold;
   border-radius: 8px;
   height: 30px;
   width: 200px;
-  
 }
 
 .btn:hover {
@@ -168,12 +164,12 @@ footer p {
 }
 
 @keyframes background-color {
-    100% {
-      background-color: hsl(44, 32%, 83%);
-    }
+  100% {
+    background-color: hsl(44, 32%, 83%);
+  }
 }
 
-@media(max-width: 590px) {
+@media (max-width: 590px) {
   body {
     font-size: 85%;
   }
@@ -183,14 +179,14 @@ footer p {
   main {
     top: 55px;
   }
- 
+
   #nav-bar {
     flex-direction: column;
   }
   .nav-link {
     margin: 2px;
   }
-  
+
   .feature-section {
     display: flex;
     flex-direction: column;
@@ -200,22 +196,22 @@ footer p {
   .feature-img {
     display: none;
   }
-  
+
   #products {
     display: flex;
     flex-direction: column;
     margin: auto;
   }
-  .product-section { 
+  .product-section {
     margin-top: 10px;
   }
-  
+
   footer {
-    margin-top: 65px; 
+    margin-top: 65px;
   }
 }
 
-@media(max-width: 450px) {
+@media (max-width: 450px) {
   body {
     font-size: 75%;
   }
